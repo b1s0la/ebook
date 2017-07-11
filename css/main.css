@@ -1,0 +1,396 @@
+
+
+/* ==========================================================================
+   HOMEPAGE custom styles
+   ========================================================================== */
+body {
+     padding-top: 100px;
+     font-family: avenir;
+     
+ }
+.logo{
+	height: 100px;
+	width: 220px;
+}
+.homeul{
+	margin-left: 100px;
+	margin-top: 40px;
+	
+}
+.nav>li{
+	padding-right: 20px;
+}
+.homeul>li>a{
+	padding-top: 25px;
+	font-size: 17px;
+  color: white;
+}
+
+.homeul>li>a:hover, .homeul>li>a:focus{
+  background: transparent;
+}
+.navcolor{
+  background: #000;
+}
+
+
+
+.search label{
+    font-size:0.75em;
+    font-weight:bold;
+    color:white;
+    text-indent:-9999em;
+    display:block;
+    float:left;
+
+}
+
+.search input[type="text"]{
+    text-indent:8px;
+    padding:0 0 0 22px;
+    height:35px;
+    color:black;
+    line-height:20px;
+    font-weight:bold;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.05);
+    border-radius:6px;
+    box-shadow:1px 1px 0 rgba(0,0,0,0.125);
+    cursor:pointer;
+     margin-left: -120px;
+     margin-right: 1px;
+     width:380px;
+    outline:none;
+    font-size: 17px;
+    background:url('../img/search.png')9px 9px no-repeat, -webkit-linear-gradient(bottom,rgba(249, 249, 249,0.95) 0%, rgba(249, 249, 249,0.95) 2%, rgba(249, 249, 249,0.95)100%);;
+    cursor:text;
+}
+
+/*.search input[type="text"]:focus{
+    width:300px;
+    outline:none;
+    background:url('../img/search.png')2px 2px no-repeat, -webkit-linear-gradient(bottom,rgba(245,245,245,0.95) 0%, rgba(245,245,245,0.95) 2%, rgba(245,245,245,0.95)100%);
+    -webkit-box-shadow:1px 1px 0 rgba(255,255,255,0.125);
+    cursor:text;
+}*/
+.btnprimary{
+  background: #2996BF;
+  color: white;
+  margin-left: -38px;
+  width: 60px;
+  height: 36px;
+  border: 1px solid #2996BF;
+  border-radius:6px;
+  margin-top: -5px;
+
+}
+#img2{
+  height: 400px;
+  width: 100%;
+}
+.btn-danger{
+  background:  #2996BF;
+  border: 1px solid white;
+  margin-right: 20px;
+  width: 200px;
+}
+.btn-danger:hover, .btn-danger:focus{
+  background:  #2996BF;
+  border: 1px solid white;
+}
+.submitcolor:focus{
+ background:  #2996BF;
+}
+.btncancel{
+  background: red;
+}
+.wrapper{
+	margin: 20px 180px 0 100px;
+} 
+slide{
+  animation: slide-in 3s ease;
+  position: absolute;
+}
+@keyframes slide-in{
+  from{ transform: translateY(140px); }
+
+  to{ transform: translateY(0px); }
+}
+.sectionone{
+  margin-top: 40px;
+}
+.sectiontwo{
+  margin-top: 40px;
+  color: white;
+}
+
+.coll4{
+	margin-left: 22px;
+	width: 31%;
+}
+.ebook{
+  background: #65f165;
+}
+
+.audiobooks{
+  background: #ee59e5;
+}
+.read{
+  background: #f39645;
+}
+.learnbtn{
+	margin-top: 50px;
+  background: white;
+  color: black;
+  border-radius: 0px!important;
+  padding: 10px 30px;
+}
+.learnb{
+  margin-top: 30px;
+  background: #cb2e2e;
+  color: white;
+  border-radius: 0px!important;
+  padding: 10px 30px;
+  margin-right: 17px;
+  
+}
+
+.learnb:focus, .learnb:hover{
+  color: white;
+}
+
+.sectionthree{
+  margin-top: 40px;
+  background: #916daf;
+  padding-bottom: 20px;
+  
+}
+.container-fluid{
+	padding-right: 0px;
+  padding-left: 0px;
+}
+.image{
+	height: 320px;
+	width: 100%;
+  transition:all .2s ease-in-out;
+  border-radius: 5px;
+}
+.image:hover{
+  transform: scale(1.1);
+}
+.underwater{
+  background: rgba(0, 0, 0, 0.40);
+  position: absolute;
+  height: 60px;
+  width: 262px;
+  margin-top: -60px;
+  color: white;
+
+}
+
+/* start social_icons */
+.social_icons {
+	margin-top: 20px;
+    margin-right: 100px;
+
+}
+.social_icons ul{
+	margin-bottom: 0;
+}
+.social_icons ul li{
+	text-align:center;
+	display:inline-block;
+	margin-left: 40px;
+}
+.social_icons ul li a{
+	
+	color: #ffffff;
+	font-size: 16px;
+	height: 36px;
+	width: 36px;
+	line-height: 36px;
+	font-weight: 100;
+	
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	display: block;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+/*.social_icons li a:hover{
+	text-decoration:none;
+	color: #1DDECE;
+}*/
+.wrap2{
+	margin-top: 40px;
+	background-color:#b2c2ad;
+	height: auto;
+  margin-left: -30px;
+
+}
+footer{
+	height: 70px;
+	
+}
+.link {
+    color: white;
+    margin-top: 30px;
+    margin-left: 135px;
+}
+.fb{
+  width: 24px;
+  height: 25px; 
+}
+.firstaid{
+  width: 24px;
+  height: 29px;
+}
+
+.carol{
+  height: 400px;
+}
+
+/* ==========================================================================
+   ABOUTPAGE custom styles
+   ======================================================*/
+.shopbtn{
+  background: #40e145;
+  color: white;
+}
+.sellbtn{
+  background: #40e1c6;
+  color: white;
+}
+.shopbtn:hover, .shopbtn:focus{
+   color: white;
+}
+.sellbtn:hover, .sellbtn:focus{
+ color: white;
+}
+
+/* ==========================================================================
+   REGISTRATION PAGE custom styles
+   ======================================================
+
+   /* ==========================================================================
+   AUDIO PAGE custom styles
+   ========================================================================== */
+hr{
+  width: 460px;
+  margin-top: 35px;
+  border: 2px solid #2996BF;
+
+}
+.hr1{
+  padding-left: 20px;
+}
+.hr2{
+  margin-left: -60px;
+}
+
+.linkall{
+	margin-left: 1000px;
+	margin-top: 20px;
+}
+.userlink{
+	padding: 10px 10px;
+	border: 1px solid grey;
+	color: black;
+	text-decoration: none!important;
+}
+
+.cartlink{
+	padding: 10px 20px;
+	border: 1px solid grey;
+	color: black;
+	text-decoration: none!important;
+	margin-left: -5px;
+}
+.navcontainer{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.link1{
+	padding: 10px 70px!important;
+	border: 1px solid #2996BF;
+	color: black;
+	
+
+}
+
+.nav>li.links{
+	padding-right: 0px;
+}
+.audiobook{
+	margin-left: -50px;
+}
+.btn-primary{
+  background: #2996BF;
+  color: white;
+  width: 230px;
+  border: 1px solid #2996BF;
+  border-radius: 15px;
+  
+}
+
+.btn-primary:hover{
+  background: #2996BF;
+  border: 1px solid #2996BF;
+  
+}
+
+.contain1{
+	margin-top: 30px;
+}
+.contain2{
+	margin-top: 60px;
+}
+.under{
+  background: rgba(0, 0, 0, 0.40);
+  position: absolute;
+  height: 60px;
+  width: 238px;
+  margin-top: -60px;
+  color: white;
+}
+.inner{
+	margin-left: -20px;
+}
+.fastar{
+   margin-top: -10px;
+}
+.fa-star{
+  color: #ffaa00;
+ 
+}
+
+ /* ==========================================================================
+   CHECKOUT PAGE custom styles
+   ========================================================================== */
+.checkout{
+  margin-left: 130px;
+  border: 2px solid #2996BF;
+  padding: 10px 0 10px 10px;
+}
+.checkspan{
+  margin-right: 350px;
+  font-size: 21px;
+}
+.returncustomer{
+  border: 2px solid #2996BF;
+  text-decoration: none!important;
+  padding: 5px 5px;
+  color: #2996BF;
+}
+
+
+
+
+
+
+
+
+
+

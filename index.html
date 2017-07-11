@@ -1,0 +1,325 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navcolor navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img class="logo" src="img/logo.png">
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav homeul">
+            <li><a href="#home"><strong>HOME</strong></a></li>
+            <li><a href="about.html"><strong>ABOUT</strong></a></li>
+            <li><a href="newbook.html"><strong>SHOP</strong></a></li>
+            <li><a href="#"><strong>SELLER PORTAL</strong></a></li>
+          </ul>
+          <form class="navbar-form navbar-right search" role="form">
+            <label for="search-box">Search:</label>
+            <input id="search-box" type="text" name="search" placeholder="search">
+            <button class="btnprimary"><i class="fa fa-paper-plane-o"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>   
+
+<!-- carosel beginning -->
+    <div id="myCarousel" class="carousel slide car" data-ride="carousel">
+      <!-- Indicators -->
+        
+
+        <!-- Wrapper for slides -->
+        <div id="img" class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img id="img2" src="img/education.jpg">
+            <div class="carousel-caption">
+              <div style="position: absolute; margin-top: -180px; margin-left: 200px;">
+                <input type="button" class="btn-danger btn-lg" role="button" data-toggle="modal" data-target="#register" value="SIGN IN">
+                  <!--modal start-->
+                <div class="modal fade" id="register"  tabindex="-1" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="modal-content" style="color: black;">
+                      <div class="modal-header" style="background: lightgrey;">
+                        <button data-dismiss="modal" class="btn pull-right btncancel">&times;</button>
+                        <h4 >LOG IN</h4>
+                      </div>
+                      <div class="modal-body">
+                        <form id="formcontact">
+                          <div class="form-group">
+                            <label>User Name</label>
+                            <input type="text" class="form-control" id="exampleInputPassword3" placeholder="User Name">
+                          </div>
+                          <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                          </div>
+                          <br>
+                          <div class="checkbox pull-left">
+                            <label class="rememberme"><input type="checkbox"> REMEMBER ME</label>
+                          </div>
+                          
+                          <br><br>
+                          <p><span id="errorMessage" style="color:red; font-size: 18px;"></span></p>
+                          <button type="submit" class="btn btn-primary btn-lg submitcolor">SUBMIT</button>
+                        </form>
+                      </div>
+                      
+                    </div>  
+                  </div>
+                </div>
+              <!--modal end-->
+                <a class="btn btn-lg btn-danger" href="#" role="button">REGISTER</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+<!-- carousel ends -->
+<!-- the wrapper content -->
+    <div class="container-fluid" id="slide">
+      <div class="wrapper">
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <h2 class="text-center">Our Vision</h2>
+                <p class="text-center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              </div>
+              <div class="col-md-7">
+                <img class="img-responsive" src="img/boyreading.jpg" style="width: 100%; height: 250px;">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sectiontwo">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 text-center thumbnail coll4 ebook">
+                <h3 class="text-center">E-BOOKS</h3>
+                <img src="img/three-books.png">
+                <h5>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </h5>
+                <p><a class="btn btn-lg learnbtn" href="newbook.html" role="button">MORE &raquo;</a></p>
+              </div>
+              <div class="col-md-4 text-center thumbnail coll4 audiobooks">
+                <h3>AUDIO BOOK</h3>
+                <img src="img/headphones.png">
+                <h5>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </h5>
+                <p><a class="btn btn-lg learnbtn" href="audio.html" role="button">MORE &raquo;</a></p>
+              </div>
+              <div class="col-md-4 text-center thumbnail coll4 read">
+                <h3>READ ONLINE</h3>
+                <img src="img/Path.png">
+                <h5>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </h5>
+                <p><a class="btn btn-lg learnbtn" href="#" role="button">MORE &raquo;</a></p>
+              </div>
+            </div>
+          </div>
+        </section>  
+      </div>
+        <div class="container-fluid sectionthree">
+          <div class="container">
+          <h3><strong>BEST SELLERS OF ALL TIME</strong></h3>
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img1.jpg">
+                <div class="underwater"><h6 class="text-center">On Becoming A Leader</h6></div>
+              </div>
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img2.jpg">
+                <div class="underwater"><h6 class="text-center">On Becoming A Leader</h6></div>
+              </div>
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img3.jpg">
+                <div class="underwater"><h6 class="text-center">On Becoming A Leader</h6></div>
+              </div>
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img4.jpg">
+                <div class="underwater"><h6 class="text-center">PRACTICAL PROJECT</h6></div>
+              </div>
+              <p><button class="btn btn-lg learnb pull-right" role="button" id="morebooks">MORE &raquo;</button></p>
+
+<!--toggle more-->
+            <div class="container open" style="display: none;">
+            <h3><strong>BEST SELLERS OF ALL TIME</strong></h3>
+            <div class="row">
+              <div class="col-md-3" id="tog1">
+                <img class="img-responsive image" src="img/books.jpg">
+                <div class="underwater"><h6 class="text-center">On Becoming A Leader</h6></div>
+              </div>
+              <div class="col-md-3" id="tog2">
+                <img class="img-responsive image" src="img/books22.jpg">
+                <div class="underwater"><h6 class="text-center">On Becoming A Leader</h6></div>
+              </div>
+              <div class="col-md-3" id="tog3">
+                <img class="img-responsive image" src="img/books.jpg">
+                <div class="underwater"><h6 class="text-center">FUTURE ENGINEERS</h6></div>
+              </div>
+              <div class="col-md-3" id="tog4">
+                <img class="img-responsive image" src="img/books22.jpg">
+                <div class="underwater"><h6 class="text-center">PRACTICAL PROJECT</h6></div>
+              </div>
+              <p><a class="btn btn-lg learnb pull-right" href="#" role="button">MORE &raquo;</a></p>
+            </div>
+          </div>
+            </div>
+          </div>
+          <div class="container">
+            <h3><strong>BEST EDUCATIONAL NOVEL</strong></h3>
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img5.jpg">
+                <div class="underwater"><h6 class="text-center">UNDERWATER ENGINEERING</h6></div>
+              </div>
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img6.jpg">
+                <div class="underwater"><h6 class="text-center">ARCHITECTURE ENGINEERING</h6></div>
+              </div>
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img7.jpg">
+                <div class="underwater"><h6 class="text-center">On Becoming A Leader</h6></div>
+              </div>
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img8.jpg">
+                <div class="underwater"><h6 class="text-center">PRACTICAL PROJECT</h6></div>
+              </div>
+              <p><a class="btn btn-lg learnb pull-right" href="#" role="button">MORE &raquo;</a></p>
+            </div>
+          </div>
+        </div><br>
+        <div class="container-fluid sectionfour">
+          <div class="container">
+          <h3><strong>BEST SELLERS OF ALL TIME</strong></h3>
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img9.jpg">
+                <div class="underwater"><h6 class="text-center">On Becoming A Leader</h6></div>
+              </div>
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img10.jpg">
+                <div class="underwater"><h6 class="text-center">On Becoming A Leader</h6></div>
+              </div>
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img11.jpg">
+                <div class="underwater"><h6 class="text-center">FUTURE ENGINEERS</h6></div>
+              </div>
+              <div class="col-md-3">
+                <img class="img-responsive image" src="img/img12.jpg">
+                <div class="underwater"><h6 class="text-center">PRACTICAL PROJECT</h6></div>
+              </div>
+              <p><a class="btn btn-lg learnb pull-right" href="#" role="button">MORE &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+
+
+
+      
+    
+       <div class="container-fluid wrap2">
+          <footer>
+            <div class="copy pull-left">
+              <p class="link"><span>&#169; All rights reserved designed by&nbsp; Terms and condition</span></p>
+              
+            </div>
+            <div class="social_icons pull-right">
+              <ul class="list-unstyled text-center">
+                <li><a href="#">Contact</a></li>&nbsp;
+                <li><a href="#"><img src="img/twitter1.png"></a></li>
+                <li><a href="#"><img src="img/facebook1.png"></a></li>
+                <li><a href="#"><img src="img/instagram1.png"></i></a></li>
+                <li><a href="#"><img src="img/google-plus.png"></li>
+              </ul>
+            </div>
+          </footer>
+
+        </div>
+      </div>
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        <script>
+        function prepareEventHandlers(){
+        document.getElementById("formcontact").onsubmit = function(){
+          //prevent a form from submitting if no email
+          if(document.getElementById("email").value == ""){
+            document.getElementById("errorMessage").innerHTML = "please provide at least email address";
+            //to STOP the form from submiting
+            return false;
+          }
+          else{
+            //reset and allow the form to submit
+            document.getElementById("errorMessage").innerHTML = "";
+            return true;
+          }
+        };
+      }
+
+// when the document loads
+
+  prepareEventHandlers();
+
+  
+      $("#morebooks").click(function(){
+        $(".open").fadeToggle();
+        $('#tog1').css('margin-top','65px');
+        $('#tog2').css('margin-top','65px');
+        $('#tog3').css('margin-top','65px');
+        $('#tog4').css('margin-top','25px');
+      });
+
+    
+
+        </script>
+    </body>
+</html>
